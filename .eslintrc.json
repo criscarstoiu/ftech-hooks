@@ -1,0 +1,80 @@
+{
+  "env": {
+    "browser": true,
+    "amd": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier", "@typescript-eslint"],
+  "globals": {
+    "global": true,
+    "process": true,
+    "require": true,
+    "NODE_ENV": true,
+    "EXCHANGE_URL": true,
+    "BASE_URL": true,
+    "API_URL": true,
+    "ANALYTICS_ID": true,
+    "ADWORDS_ID": true,
+    "TAG_MANAGER": true,
+    "STREAM_TOKEN_URL": true,
+    "COOKIE_DOMAIN": true,
+    "_mobilize_setting": true
+  },
+  "rules": {
+    "prettier/prettier": "warn",
+    "no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "args": "none",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "react/jsx-uses-vars": ["error"],
+    "react/jsx-uses-react": ["error"],
+    "indent": [
+      "warn",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "linebreak-style": ["error", "unix"],
+    "no-debugger": ["error"],
+    "no-alert": ["error"],
+    "no-console": [
+      "error",
+      {
+        "allow": [ "log", "error", "group", "groupEnd"]
+      }
+    ],
+    "no-useless-escape": ["off"],
+    "no-case-declarations": ["off"],
+    "no-extra-boolean-cast": ["off"],
+    "@typescript-eslint/no-var-requires": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/ban-types": 0,
+    "react/display-name": 0,
+    "react/prop-types": 0
+  }
+}
