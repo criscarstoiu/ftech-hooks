@@ -1,5 +1,7 @@
 {
   "name": "@ftech/ftech-hooks",
+  "description": "Util Hooks",
+  "author": "Cristina Carstoiu <cristina_carstoiu@yahoo.com>",
   "version": "2.0.0",
   "main": "dist/index.js",
   "dependencies": {
