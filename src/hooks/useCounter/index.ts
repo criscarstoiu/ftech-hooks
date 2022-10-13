@@ -80,7 +80,6 @@ export const useCounter = (initialValue: number, options?: IUseOptions): IUseCou
     () => setCount(limitValue(initialValue, min, max)),
     [initialValue, min, max]
   )
-  console.log()
   const set = useCallback((value: number) => setCount(limitValue(value, min, max)), [min, max])
   return { count, increment, decrement, reset, set }
 }
