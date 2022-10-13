@@ -1,6 +1,6 @@
 {
   "name": "@ftech/ftech-hooks",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "main": "dist/index.js",
   "dependencies": {
@@ -40,9 +40,7 @@
       "last 1 safari version"
     ]
   },
-  "peerDependencies": {
-    
-  },
+  "peerDependencies": {},
   "devDependencies": {
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^22.0.2",
