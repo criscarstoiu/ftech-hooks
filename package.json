@@ -4,6 +4,7 @@
   "author": "Cristina Carstoiu <cristina_carstoiu@yahoo.com>",
   "version": "2.0.0",
   "main": "dist/index.js",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
