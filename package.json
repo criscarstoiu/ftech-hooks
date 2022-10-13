@@ -1,7 +1,6 @@
 {
   "name": "@ftech/ftech-hooks",
   "version": "1.0.0",
-  "private": true,
   "main": "dist/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
